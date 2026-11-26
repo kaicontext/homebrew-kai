@@ -5,7 +5,7 @@ Homebrew tap for [Kai](https://kailayer.com) — semantic infrastructure for cod
 ## Install
 
 ```bash
-brew install kailayerhq/kai/kai
+brew install kaicontext/kai/kai
 ```
 
 ## Usage
