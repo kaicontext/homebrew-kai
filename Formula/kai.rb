@@ -1,22 +1,22 @@
 class Kai < Formula
   desc "Semantic infrastructure for code change — call graphs, impact analysis, and AI context"
   homepage "https://kailayer.com"
-  version "0.36.53"
+  version "0.36.54"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/kaicontext/kai-cli/releases/download/v#{version}/kai-darwin-arm64.gz"
-      sha256 "7bab6d32db274f629af5ef5b1d716885e067da477b16c4fa2f2e87c6f521ad33"
+      sha256 "11782fbacbdb0d95a69e03b79eff6c03d420b3692aee5c1d1c7f1f880360f2e2"
     else
       url "https://github.com/kaicontext/kai-cli/releases/download/v#{version}/kai-darwin-amd64.gz"
-      sha256 "061e22e06f7307883ec8311fdf05c96150063e428243ebbf404546fbd1cc4ca3"
+      sha256 "da564fda99df53b59d78676cc53e71d670a45349515129db5f9f0fe2e005ed69"
     end
   end
 
   on_linux do
     url "https://github.com/kaicontext/kai-cli/releases/download/v#{version}/kai-linux-amd64.gz"
-    sha256 "4607c65dd42df612cd3547b443582fce9a40c9e7f86c976ec23b0c0851a4c38f"
+    sha256 "7bbc4a10c36e656f20677ce056029d8d0ae9d5cb72754effe6a0eb56cee287a4"
   end
 
   def install
